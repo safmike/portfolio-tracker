@@ -833,7 +833,13 @@ const PortfolioTracker = () => {
         )}
 
       </div>
-    </div>
+      <footer className="mt-12 pt-6 border-t border-slate-600 text-center">
+  <p className="text-sm text-slate-400">
+    <span className="font-semibold text-slate-300">Archived project.</span>{" "}
+    This project has been intentionally sunset and is retained as a reference implementation.
+  </p>
+</footer>
+     </div>
   );
 }
 
